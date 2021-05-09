@@ -58,7 +58,7 @@ if(lastFed>=12){
 
       foodObj.updateFoodStock(foodObj.getFoodStock()-1);
       database.ref('/').update({
-        food.foodObj.getFoodStock(),
+        food.foodObj getFoodStock(),
         FeedTime:hour()
       })
     }
